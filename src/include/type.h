@@ -2,14 +2,11 @@
 #define TYPE_H__
 
 #include <stdint.h>
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef uint8_t chnid_t;
 
-void print()
-{
-    printf("%s\n", __FILE__);
-}
+void print() { printf("%s\n", __FILE__); }
 
-#endif // TYPE_H__
+#endif	// TYPE_H__
